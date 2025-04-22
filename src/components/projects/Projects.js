@@ -18,27 +18,27 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         
         <ProjectsCard
-          title="CryptoVerse Web | Gemini AI Heckathon"
-          des="Dogy Walk Generator, innovating personalized dog walking routes for varied energy levels and safety concerns. Transformed daily walks for dog owners, ensuring both creativity and safety."
+          title="CryptoVerse Web"
+          des="I created the CryptoVerse website to provide a sleek, responsive platform for showcasing crypto-related services and updates. It features modern UI/UX, real-time data integration, and a seamless user experience tailored for the crypto community."
           src={projectOne}
           link= 'https://cryptoverse-ai.com/'
           git='https://github.com/Zeshig01/SurgicalWeb'
         />
 
         <ProjectsCard
-          title="TPON"
-          des="TPON is a platform that syncs friends' calendars to create optimized outing plans with a single tap, ensuring everyone's schedules align. It tailors plans to fit friends' budgets and preferences, making get-togethers effortless and enjoyable."
+          title="Admin Panal"
+          des="I created a comprehensive admin panel for managing user information, attendance tracking, and detailed salary reports. This system ensures efficient employee data handling and payroll management."
           src={projectTwo}
-          link= 'https://agil-hackathon-frontend-2akw.vercel.app/'
-          git='https://github.com/Shabbir-Anjum/Teepon'
+          link= 'https://admin-panal-nine.vercel.app/'
+          git='https://github.com/Zeshig01/Admin_Panal'
         />
 
         <ProjectsCard
           title="HealthPulse"
-          des=" HealthPulse is an integrated health analytics platform designed to provide users with deep insights into their health by leveraging data from wearable devices, user-provided health information, and advanced AI models."
+          des=" I developed a professional website for the company to enhance its online presence and showcase its services. The site is user-friendly, responsive, and designed to attract and engage potential clients."
           src={projectThree}
-          link= 'https://health-pulse-beta.vercel.app/'
-          git='https://github.com/Shabbir-Anjum/MindsDB-Hackathon'
+          link= 'https://zocean.vercel.app/'
+          git='https://github.com/Zeshig01/newone'
         />
         <ProjectsCard
           title="OrbitX"
