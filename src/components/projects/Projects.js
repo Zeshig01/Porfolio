@@ -45,21 +45,21 @@ const Projects = () => {
           des=" In the NASA Space Hackathon, we developed an innovative project focused on utilizing AI-driven models to analyze space data for enhanced exploration and navigation. Our approach aims to optimize resource management and decision-making for future space missions."
           src={projectFour}
           link= 'https://orbit-x.vercel.app/'
-          git='https://github.com/Shabbir-Anjum/OrbitX'
+          git='https://github.com/Zeshig01/Eziline'
         />
         <ProjectsCard
           title="SiteBuilder"
           des="It leverages AI to generate and display code snippets instantly using the Together AI LLaMA API and HELICONE API. The application also includes a sandbox feature that allows users to easily transfer code into a live editor, saving valuable time during development."
           src={projectFive}
-          link= 'https://github.com/Shabbir-Anjum/SiteBuilder'
-          git='https://github.com/Shabbir-Anjum/SiteBuilder'
+          link= 'https://zeshi-the-brand.vercel.app/'
+          git='https://github.com/Zeshig01/Eziline'
         />
         <ProjectsCard
           title="Intervuo"
           des="This is an AI-powered interviewer bot developed by Team Pathfinder to revolutionize the recruitment process. Our bot conducts interviews autonomously, providing a consistent and efficient way to assess candidates without human intervention."
           src={projectSix}
           link= 'https://voca-mind.vercel.app/'
-          git='https://github.com/pathfindermilan/Intervuo'
+          git='https://github.com/Zeshig01/Eziline'
         />
       </div>
     </section>
