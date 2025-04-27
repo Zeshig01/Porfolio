@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const ProjectsCard = ({ title, des, src, link, git }) => {
   return (
-    <div className="w-full p-4 rounded-lg shadow-shadowOne bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 hover:to-gray-900 transition-colors duration-1000">
+    <div className="w-full bg-gradient-to-br from-[var(--bg-primary)] to-[var(--bg-secondary)] bg-opacity-90 backdrop-blur-md  p-4 rounded-lg shadow-shadowOne group  transition-colors duration-1000">
       <div className="overflow-hidden rounded-lg aspect-video mb-4">
         <img
           className="w-full h-full object-cover object-center group-hover:scale-110 duration-300 cursor-pointer"
@@ -31,7 +31,7 @@ const ProjectsCard = ({ title, des, src, link, git }) => {
             </Link>
           </div>
         </div>
-        <p className="text-sm text-gray-300 group-hover:text-gray-100 duration-300">
+        <p className="text-sm  duration-300">
           {des}
         </p>
       </div>

@@ -7,9 +7,12 @@ import FooterBottom from "./components/footer/FooterBottom";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
+import { ThemeProvider } from "./ThemeContext";
 function App() {
   return (
-    <div className="w-full h-auto bg-bodyColor text-lightText px-4">
+    <ThemeProvider>
+
+<div className="w-full h-auto bg-[var(--bg-primary)] text-[var(--text-primary)] px-4">
         <Navbar />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
@@ -22,6 +25,8 @@ function App() {
         
       </div>
     </div>
+    </ThemeProvider>
+    
   );
 }
 

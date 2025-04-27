@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 import { FaLinkedinIn, FaGithub, FaReact } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { useTheme } from "../../ThemeContext";
 
 const LeftBanner = () => {
+  const { darkMode } = useTheme(); 
+  const themeClasses = {
+    dark: "text-white",
+    light: "text-black",
+  };
+  const currentTheme = darkMode ? "dark" : "light"; 
   const [text] = useTypewriter({
     words: ["Professional Coder.", "MERN Stack Developer.", "Wordpress Developer", "Shopify Developer"],
     loop: true,
@@ -13,14 +20,15 @@ const LeftBanner = () => {
     delaySpeed: 2000,
   });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+    <div className="w-full lg:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
-        <h1 className="text-5xl font-bold text-white">
-          Hi, I'm{" "}
-          <span className="text-designColor capitalize">Muhammad Zeeshan Ashraf</span>
+        {/* <h1 className="text-5xl font-bold text-white"> */}
+        <h1 className={`text-5xl font-bold `}>
+        Hi, I'm{" "}
+          <span className="text-designColor capitalize">Muhammad Zeeshan </span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-4xl font-bold">
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
