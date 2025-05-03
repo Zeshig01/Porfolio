@@ -116,7 +116,7 @@ const responseMap = {
   hi: "Hi there! 👋 How can I help you today?",
   hello: "Hi there! 👋 How can I help you today?",
   services: "We offer Web Development, UI/UX Design, E-commerce Solutions, WordPress Development, SEO Optimization, and IT Services.",
-  price: "Pricing depends on the project. For a basic website, it starts from $200. Get a custom quote by sharing your needs!",
+  pricing   : "Pricing depends on the project. For a basic website, it starts from $200. Get a custom quote by sharing your needs!",
   cost: "Pricing depends on the project. For a basic website, it starts from $200. Get a custom quote by sharing your needs!",
   charge: "Pricing depends on the project. For a basic website, it starts from $200. Get a custom quote by sharing your needs!",
   contact: "You can contact us at contact@yourdomain.com or via WhatsApp at +1234567890.",
