@@ -4,6 +4,7 @@ import { FaTimes, FaPaperPlane, FaSpinner } from "react-icons/fa";
 const responseMap = {
   hi: "Hi there! 👋 How can I help you today?",
   hello: "Hi there! 👋 How can I help you today?",
+  greet: "I'm Fine ",
   services: "We offer Web Development, UI/UX Design, E-commerce Solutions, WordPress Development, SEO Optimization, and IT Services.",
   pricing   : "Pricing depends on the project. For a basic website, it starts from $200. Get a custom quote by sharing your needs!",
   cost: "Pricing depends on the project. Get a custom quote by sharing your needs!",
@@ -72,6 +73,7 @@ const Chatbot = ({ onClose }) => {
       {
         text: "Welcome! I'm here to answer questions about our services, pricing, portfolio, and more. Try a suggested question below or type your own!",
         isUser: false,
+        // sd
       },
     ]);
   }, []);
