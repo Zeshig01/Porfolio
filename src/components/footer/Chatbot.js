@@ -73,7 +73,7 @@ const Chatbot = ({ onClose }) => {
       {
         text: "Welcome! I'm here to answer questions about our services, pricing, portfolio, and more. Try a suggested question below or type your own!",
         isUser: false,
-        // sd
+        // dsf
       },
     ]);
   }, []);
