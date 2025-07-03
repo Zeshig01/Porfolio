@@ -1,21 +1,47 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { HiArrowRight } from "react-icons/hi";
 
-const Card = ({title,des,icon}) => {
+gsap.registerPlugin(ScrollTrigger);
+
+const Card = ({ title, des, icon }) => {
+  const cardRef = useRef(null);
+
+  useEffect(() => {
+    gsap.fromTo(
+      cardRef.current,
+      { opacity: 0, y: 100, rotateY: 30 }, // start
+      {
+        opacity: 1,
+        y: 0,
+        rotateY: 0, // end
+        scrollTrigger: {
+          trigger: cardRef.current,
+          start: 'top 90%',
+          end: 'bottom 60%',
+          scrub: true,
+        },
+      }
+    );
+  }, []);
+
   return (
-    <div className="w-full bg-gradient-to-br from-[var(--bg-primary)] to-[var(--bg-secondary)] bg-opacity-90 backdrop-blur-md  px-12 h-80 py-10 rounded-lg shadow-lg border flex items-center group  transition-colors duration-100 group">
-      <div className="h-72  overflow-y-hidden">
+    <div
+      ref={cardRef}
+      className="w-full bg-gradient-to-br from-[var(--bg-primary)] to-[var(--bg-secondary)] bg-opacity-90 backdrop-blur-md  px-12 h-80 py-10 rounded-lg shadow-lg border flex items-center group"
+    >
+      <div className="h-72 overflow-y-hidden">
         <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
           <div className="w-10 h-8 flex flex-col justify-between">
-        
             {icon ? (
               <span className="text-5xl text-designColor">{icon}</span>
             ) : (
               <>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
+                <span className="w-full h-[2px] bg-designColor inline-flex"></span>
+                <span className="w-full h-[2px] bg-designColor inline-flex"></span>
+                <span className="w-full h-[2px] bg-designColor inline-flex"></span>
+                <span className="w-full h-[2px] bg-designColor inline-flex"></span>
               </>
             )}
           </div>
@@ -32,6 +58,6 @@ const Card = ({title,des,icon}) => {
       </div>
     </div>
   );
-}
+};
 
-export default Card
+export default Card;

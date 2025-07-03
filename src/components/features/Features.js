@@ -3,6 +3,7 @@ import { AiFillAppstore } from "react-icons/ai";
 import { FaMobile, FaGlobe } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
 import Title from '../layouts/Title';
+import { motion } from 'framer-motion';
 import Card from './Card';
 
 const Features = () => {
@@ -12,7 +13,20 @@ const Features = () => {
       className="w-full py-20 border-b-[1px]"
     >
       <Title title="Features" des="What I Do" />
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20"> */}
+       <motion.div
+        className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={{
+          visible: {
+            transition: {
+              staggerChildren: 0.2,
+            },
+          },
+        }}
+        >
         <Card
           title="Business Stratagy"
           des="I help plan smart moves for business, using what we know about the market to grow and succeed."
@@ -43,7 +57,7 @@ const Features = () => {
           des="I keep website safe and running smoothly on the internet, so customers can always find user."
           icon={<FaGlobe />}
         />
-      </div>
+      </motion.div>
     </section>
   );
 }
