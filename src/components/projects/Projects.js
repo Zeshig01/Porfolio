@@ -34,7 +34,7 @@ const Projects = () => {
         />
 
         <ProjectsCard
-          title="HealthPulse"
+          title="Zocean Solution"
           des=" I developed a professional website for the company to enhance its online presence and showcase its services. The site is user-friendly, responsive, and designed to attract and engage potential clients."
           src={projectThree}
           link= 'https://zocean.vercel.app/'

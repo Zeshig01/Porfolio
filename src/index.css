@@ -13,6 +13,26 @@
     --border-color: #4b5563;
   }
   
+.gradient-text {
+  background: linear-gradient(90deg, #00fff7, #ff00ff);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shineText 5s linear infinite;
+  mix-blend-mode: exclusion;
+}
+
+.gradientnew-text {
+  background: linear-gradient(90deg, #F99ff7, #ff00ff);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shineText 5s linear infinite;
+  mix-blend-mode: exclusion;
+}
+
 
   .custom-cursor {
   position: fixed;
@@ -169,3 +189,42 @@
   perspective: 1000px;
 }
 
+/* Custom Scroll Progress Bar */
+.scroll-progress-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 6px;
+  height: 0;
+  background-color: rgba(0, 255, 255, 0.3);
+  backdrop-filter: blur(3px);
+  mix-blend-mode: difference;
+  border-radius: 10px;
+  z-index: 9999;
+  transition: height 0.1s ease-out;
+  animation: glowScroll 2s infinite;
+}
+
+@keyframes glowScroll {
+  0% { box-shadow: 0 0 6px #00fff7; }
+  50% { box-shadow: 0 0 20px #ff00ff; }
+  100% { box-shadow: 0 0 6px #00fff7; }
+}
+
+
+
+/* Hide default scrollbar */
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none;  /* IE */
+  scrollbar-width: none;     /* Firefox */
+}
+
+
+/* For WebKit browsers like Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 8px;
+}
+  

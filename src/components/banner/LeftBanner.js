@@ -13,7 +13,7 @@ const LeftBanner = () => {
   };
   const currentTheme = darkMode ? "dark" : "light"; 
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "MERN Stack Developer.", "Wordpress Developer", "Shopify Developer"],
+    words: ["Professional Coder.", "MERN Stack Developer.", "Wordpress Developer", "Shopify Developer", "Mobile App Developer"],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -26,10 +26,10 @@ const LeftBanner = () => {
         {/* <h1 className="text-5xl font-bold text-white"> */}
         <h1 className={`text-5xl font-bold `}>
         Hi, I'm{" "}
-          <span className="text-designColor capitalize">Muhammad Zeeshan </span>
+          <span className="gradient-text capitalize">Muhammad Zeeshan </span>
         </h1>
-        <h2 className="text-4xl font-bold">
-          a <span>{text}</span>
+        <h2 className="text-4xl font-bold ">
+          a <span className="gradientnew-text capitalize">{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"

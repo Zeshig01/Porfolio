@@ -9,9 +9,11 @@ import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
 import { ThemeProvider } from "./ThemeContext";
 import CustomCursor from "./components/CustomCursor";
+import ScrollProgress from "./components/ScrollProgress";
 function App() {
   return (
     <ThemeProvider>
+      <ScrollProgress />
 <CustomCursor />
 <div className="w-full h-auto bg-[var(--bg-primary)] text-[var(--text-primary)] px-4">
         <Navbar />
