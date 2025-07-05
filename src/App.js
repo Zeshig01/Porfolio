@@ -8,10 +8,11 @@ import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
 import { ThemeProvider } from "./ThemeContext";
+import CustomCursor from "./components/CustomCursor";
 function App() {
   return (
     <ThemeProvider>
-
+<CustomCursor />
 <div className="w-full h-auto bg-[var(--bg-primary)] text-[var(--text-primary)] px-4">
         <Navbar />
       <div className="max-w-screen-xl mx-auto">
