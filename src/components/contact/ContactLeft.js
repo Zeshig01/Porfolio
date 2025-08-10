@@ -23,7 +23,7 @@ const ContactLeft = () => {
         Software Engineer ¶ Front-end Doctor ¶ Next Specialist ¶ MERN Developer
         </p>
         <p className="text-base flex items-center gap-2">
-          Phone: <span className="">+92 33174652685</span>
+          Phone: <span className="">+92317-4652685</span>
         </p>
         <p className="text-base  flex items-center gap-2">
           Email: <span className="">zeshig01@gmail.com</span>
