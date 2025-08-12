@@ -10,6 +10,7 @@ import Resume from "./components/resume/Resume";
 import { ThemeProvider } from "./ThemeContext";
 import CustomCursor from "./components/CustomCursor";
 import ScrollProgress from "./components/ScrollProgress";
+import GreetingPopup from "./components/greeting/Greeting";
 function App() {
   return (
     <ThemeProvider>
@@ -17,6 +18,7 @@ function App() {
 <CustomCursor />
 <div className="w-full h-auto bg-[var(--bg-primary)] text-[var(--text-primary)] px-4">
         <Navbar />
+        <GreetingPopup />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
         <Features />
