@@ -1,5 +1,5 @@
 
-import React, { useState, useRef, useEffect, useCallback, useMemo } from "react";
+import  { useState, useRef, useEffect, useCallback, useMemo } from "react";
 import { FaTimes, FaPaperPlane, FaSpinner, FaMicrophone } from "react-icons/fa";
 
 const responseMap = {

@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7030979.css",
+    "main.js": "/static/js/main.e9ac229b.js",
+    "static/media/certificate11.png": "/static/media/certificate11.b7f7a1cac8c49678323a.png",
+    "static/media/projectOne.png": "/static/media/projectOne.e17d62c7042adba610e4.png",
+    "static/media/projectSix.png": "/static/media/projectSix.ea72cd55af7db8a8ef37.png",
+    "static/media/certificate1.png": "/static/media/certificate1.8a36d40d07a79802b9fc.png",
+    "static/media/certificate13.png": "/static/media/certificate13.10a3458897e92007c049.png",
+    "static/media/certificate2.png": "/static/media/certificate2.cbb4742643e90371e0e1.png",
+    "static/media/certificate9.png": "/static/media/certificate9.d197bf9d97cda7e8ebdc.png",
+    "static/media/certificate5.png": "/static/media/certificate5.377345b2e09dd3308f8e.png",
+    "static/media/projectFive.png": "/static/media/projectFive.a9c608204cbf34de10a8.png",
+    "static/media/certificate10.png": "/static/media/certificate10.c5ef58dca3f3e2db91c1.png",
+    "static/media/projectFour.png": "/static/media/projectFour.fe0a9dc6d8c7fca11c4f.png",
+    "static/media/certificate15.png": "/static/media/certificate15.37bbc111cd46592ccbfb.png",
+    "static/media/certificate4.png": "/static/media/certificate4.a5a5673d56d9f0eb29b5.png",
+    "static/media/certificate6.png": "/static/media/certificate6.097fbc5d8cd657b4cd3c.png",
+    "static/media/certificate3.png": "/static/media/certificate3.0066a5b067187dbb5d65.png",
+    "static/media/bannerImg3.png": "/static/media/bannerImg3.ef38b3addcc30711b4f3.png",
+    "static/media/logo.png": "/static/media/logo.ef38b3addcc30711b4f3.png",
+    "static/media/projectTwo.png": "/static/media/projectTwo.d93a447b7feef948ffdb.png",
+    "static/media/certificate7.jpeg": "/static/media/certificate7.f2738b029ad0c7e5a159.jpeg",
+    "static/media/testimonialTwo.jpg": "/static/media/testimonialTwo.4adb088280282d58034a.jpg",
+    "static/media/certificate8.png": "/static/media/certificate8.8095b015c23843beaa8c.png",
+    "static/media/projectThree.png": "/static/media/projectThree.b757efcb7eee880801aa.png",
+    "static/media/certificate14.jpg": "/static/media/certificate14.924034973a11ac52b0bb.jpg",
+    "static/media/certificate12.png": "/static/media/certificate12.5f7693bf0c570563cc06.png",
+    "static/media/contactImg.png": "/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/testimonialOne.jpg": "/static/media/testimonialOne.afc672baeb3320d996e3.jpg",
+    "index.html": "/index.html",
+    "main.e7030979.css.map": "/static/css/main.e7030979.css.map",
+    "main.e9ac229b.js.map": "/static/js/main.e9ac229b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7030979.css",
+    "static/js/main.e9ac229b.js"
+  ]
+}

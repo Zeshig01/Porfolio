@@ -1,8 +1,7 @@
-import React from 'react'
 
 import { contactImg } from "../../assets/index";
 import { Link } from "react-router-dom";
-import { FaLinkedinIn, FaDiscord, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 const ContactLeft = () => {
   return (
     // <div className="w-full lgl:w-[35%] bg-[var(--bg-primary)] bg-opacity-90  h-full border p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">

@@ -1,17 +1,16 @@
-import React, { useContext } from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 import { FaLinkedinIn, FaGithub, FaReact } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { useTheme } from "../../ThemeContext";
+// import { useTheme } from "../../ThemeContext";
 
 const LeftBanner = () => {
-  const { darkMode } = useTheme(); 
-  const themeClasses = {
-    dark: "text-white",
-    light: "text-black",
-  };
-  const currentTheme = darkMode ? "dark" : "light"; 
+  // const { darkMode } = useTheme(); 
+  // const themeClasses = {
+  //   dark: "text-white",
+  //   light: "text-black",
+  // };
+  // const currentTheme = darkMode ? "dark" : "light"; 
   const [text] = useTypewriter({
     words: ["Professional Coder.", "MERN Stack Developer.", "Wordpress Developer", "Shopify Developer", "Mobile App Developer"],
     loop: true,
