@@ -25,7 +25,7 @@ const LeftBanner = () => {
         {/* <h1 className="text-5xl font-bold text-white"> */}
         <h1 className={`text-5xl font-bold `}>
         Hi, I'm{" "}
-          <span className="gradient-text capitalize">Muhammad zeshan </span>
+          <span className="gradient-text capitalize">Muhammad Zeeshan </span>
         </h1>
         <h2 className="text-4xl font-bold ">
           a <span className="gradientnew-text capitalize">{text}</span>
