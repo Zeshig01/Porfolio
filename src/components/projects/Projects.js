@@ -165,22 +165,22 @@ const Projects = () => {
 
   // All your projects here
   const projects = [
-    { src: projectOne, link: "https://cryptoverse-ai.com/", git: "https://github.com/Zeshig01/SurgicalWeb" },
-    { src: projectTwo, link: "https://admin-panal-nine.vercel.app/", git: "https://github.com/Zeshig01/Admin_Panal" },
-    { src: projectThree, link: "https://zocean.vercel.app/", git: "https://github.com/Zeshig01/newone" },
-    { src: projectFour, link: "https://orbit-x.vercel.app/", git: "https://github.com/Zeshig01/Eziline" },
-    { src: projectFive, link: "https://zeshi-the-brand.vercel.app/", git: "https://github.com/Zeshig01/Eziline" },
-    { src: projectSix, link: "https://voca-mind.vercel.app/", git: "https://github.com/Zeshig01/Eziline" },
-    { src: projectSeven, link: "#", git: "#" },
-    { src: projectEight, link: "#", git: "#" },
-    { src: projectNine, link: "#", git: "#" },
-    { src: projectTen, link: "#", git: "#" },
-    { src: projectEleven, link: "#", git: "#" },
-    { src: projectTwelve, link: "#", git: "#" },
-    { src: projectThirteen, link: "#", git: "#" },
-    { src: projectFourteen, link: "#", git: "#" },
-    { src: projectFifteen, link: "#", git: "#" },
-    { src: projectSixteen, link: "#", git: "#" },
+    { src: projectOne, link: "https://swordsmenroofing.com/", git: "https://github.com/Zeshig01/SurgicalWeb" },
+    { src: projectTwo, link: "https://mockbabeautysalon.com/", git: "https://github.com/Zeshig01/Admin_Panal" },
+    { src: projectThree, link: "https://preservegold.com/", git: "https://github.com/Zeshig01/newone" },
+    { src: projectFour, link: "https://oakconciergemedicine.com/", git: "https://github.com/Zeshig01/Eziline" },
+    { src: projectFive, link: "https://2xsolutions.ai/", git: "https://github.com/Zeshig01/Eziline" },
+    { src: projectSix, link: "https://sycle.com/", git: "https://github.com/Zeshig01/Eziline" },
+    { src: projectSeven, link: "https://www.txpenvironmental.com/", git: "#" },
+    { src: projectEight, link: "https://cicon.com/", git: "#" },
+    { src: projectNine, link: "https://blakeharrislaw.com/", git: "#" },
+    { src: projectTen, link: "https://www.granberglaw.com/", git: "#" },
+    { src: projectEleven, link: "https://www.hardyharris.com/", git: "#" },
+    { src: projectTwelve, link: "https://ginahendrix.com/", git: "#" },
+    { src: projectThirteen, link: "https://cravo.space/", git: "#" },
+    { src: projectFourteen, link: "https://cravo.space/", git: "#" },
+    { src: projectFifteen, link: "https://taqyeefbro.site/", git: "#" },
+    { src: projectSixteen, link: "https://serenasecurity.com/", git: "#" },
   ];
 
   // Show only first 6 or all
