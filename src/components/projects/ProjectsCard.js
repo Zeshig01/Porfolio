@@ -129,7 +129,6 @@
 
 // export default ProjectsCard;
 
-import React from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const ProjectsCard = ({ src, link, git }) => {

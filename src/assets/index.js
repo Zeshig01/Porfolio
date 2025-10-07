@@ -10,6 +10,18 @@ import contactImg from "./images/contact/contactImg.png";
 import projectFour from "./images/projects/projectFour.png";
 import projectFive from "./images/projects/projectFive.png";
 import projectSix from "./images/projects/projectSix.png";
+import projectSeven from "./images/projects/projectSeven.png";
+import projectEight from "./images/projects/projectEight.png";
+import projectNine from "./images/projects/projectNine.png";
+import projectTen from "./images/projects/projectTen.png";
+import projectEleven from "./images/projects/projectEleven.png";
+import projectTwelve from "./images/projects/projectTwelve.png";
+import projectThirteen from "./images/projects/projectThirteen.png";
+import projectFourteen from "./images/projects/projectFourteen.png";
+import projectFifteen from "./images/projects/projectFifteen.png";
+import projectSixteen from "./images/projects/projectSixteen.png";
+import projectSeventeen from "./images/projects/projectSeventeen.png";
+// import projectEighteen from "./images/projects/projectEighteen.png";
 import certificate1 from "./images/Certificats/certificate1.png"
 import certificate2 from "./images/Certificats/certificate2.png"
 import certificate3 from "./images/Certificats/certificate3.png"
@@ -38,6 +50,19 @@ export {
   projectFive,
   projectSix,
   projectFour,
+  projectSeven,
+  projectEight,
+  projectNine,
+  projectTen,
+  projectEleven,
+  projectTwelve,
+  projectThirteen,
+  projectFourteen,
+  projectFifteen,
+  projectSixteen,
+  projectSeventeen,
+  // projectEighteen,
+  
   certificate1,
   certificate2,
   certificate3,
