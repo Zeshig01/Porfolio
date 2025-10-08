@@ -14,7 +14,7 @@
   }
   
 .gradient-text {
-  background: linear-gradient(90deg, #00fff7, #ff00ff);
+  background: linear-gradient(90deg, #8A2BE2,#FF8C00, #FF1493,  #FFD700 );
   background-size: 200% auto;
   background-clip: text;
   -webkit-background-clip: text;
@@ -22,9 +22,56 @@
   animation: shineText 5s linear infinite;
   mix-blend-mode: exclusion;
 }
+.gradient-btn {
+  background: linear-gradient(135deg, #91af24ff, #2e2e2e, #ffcc00, #696543ff);
+  background-size: 300% 300%;
+  animation: gradientMove 6s ease infinite;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4),
+              0 0 40px rgba(255, 140, 0, 0.2);
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Smooth animated gradient movement */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Hover: glow intensifies */
+.gradient-btn:hover {
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.8),
+              0 0 60px rgba(0, 0, 0, 0.6);
+  transform: translateY(-3px) scale(1.1);
+}
+
+/* Optional subtle pulse animation */
+.gradient-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.gradient-btn:hover::after {
+  opacity: 1;
+}
 
 .gradientnew-text {
-  background: linear-gradient(90deg, #F99ff7, #ff00ff);
+  background: linear-gradient(90deg, #FFD700, #FF8C00, #FF1493, #8A2BE2);
+
   background-size: 200% auto;
   background-clip: text;
   -webkit-background-clip: text;
@@ -227,4 +274,19 @@ body {
 ::-webkit-scrollbar {
   width: 8px;
 }
-  
+  @keyframes fadeInRotate {
+  0% {
+    opacity: 0;
+    transform: rotate(-90deg) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+.animate-fadeInRotate {
+  animation: fadeInRotate 0.5s ease-out;
+}
+
+

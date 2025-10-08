@@ -158,12 +158,13 @@ const Footer = () => {
 
       {/* Quick Chat Button */}
       <button
-        onClick={toggleChatbot}
-        className="fixed bottom-8 right-8 bg-designColor text-white p-4 rounded-full shadow-lg hover:bg-opacity-80 transition-all duration-300 flex items-center gap-2 z-50"
-      >
-        <FaComment size={24} />
-        <span className="hidden md:inline">Quick Chat</span>
-      </button>
+  onClick={toggleChatbot}
+  className="fixed bottom-8 right-8 text-white p-4 rounded-full shadow-lg hover:opacity-90 transition-all duration-300 flex items-center gap-2 z-50 gradient-btn"
+>
+  <FaComment size={24} />
+  <span className="hidden md:inline">Chat With Agent</span>
+</button>
+
 
       {/* Chatbot */}
       {isChatbotOpen && (

@@ -1,10 +1,9 @@
-import React from 'react';
 import { bannerImg } from "../../assets/index";
 
 const RightBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex justify-center items-center relative">
-      <div className="relative w-[300px] h-[300px] lgl:w-[500px] lgl:h-[500px] rounded-full shadow-2xl shadow-designColor/50 border-[3px] border-[#202327] group">
+      <div className="relative w-[300px] h-[300px] lgl:w-[500px] lgl:h-[500px] rounded-full shadow-2xl shadow-yellow-900 border-[3px] border-[#202327] group">
         {/* Circular Image Container */}
         <div className="w-full h-full rounded-full overflow-hidden relative z-10">
           <img
