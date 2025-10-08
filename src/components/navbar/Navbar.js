@@ -488,14 +488,25 @@ const Navbar = () => {
             <div className="flex flex-col gap-8 py-2 relative">
               <div className="flex items-center gap-2">
                 <img
-                  src={logo}
-                  alt="logo"
-                  className="w-12 h-12 rounded-full border-[1px] border-[var(--border-color)] shadow-md"
-                />
-                <span className="text-[var(--text-secondary)] font-bold text-2xl">
-                  INBIO
-                </span>
+        src={logo}
+        alt="logo"
+        className="w-20 h-20 rounded-full border-2 border-yellow-400 shadow-[0_0_25px_rgba(255,215,0,0.4)]"
+      />
+                <h1 className="text-2xl font-bold text-yellow-400 text-center leading-tight">
+        Muhammad Zeeshan <br /> <span className="text-gray-300 text-lg font-medium">Full Stack Developer</span>
+      </h1>
               </div>
+
+              {/* div className="flex flex-col items-center gap-4 animate-fadeInDown">
+      <img
+        src={logo}
+        alt="logo"
+        className="w-20 h-20 rounded-full border-2 border-yellow-400 shadow-[0_0_25px_rgba(255,215,0,0.4)]"
+      />
+      <h1 className="text-2xl font-bold text-yellow-400 text-center leading-tight">
+        Muhammad Zeeshan <br /> <span className="text-gray-300 text-lg font-medium">Full Stack Developer</span>
+      </h1>
+    </div> */}
               <ul className="flex flex-col gap-6">
                 {navLinksdata.map((item) => (
                   <li
