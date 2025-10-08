@@ -493,7 +493,7 @@ const Navbar = () => {
         className="w-10 h-10 rounded-full border-2 border-yellow-400 shadow-[0_0_25px_rgba(255,215,0,0.4)]"
       />
                 <h1 className=" font-bold text-yellow-400 text-center leading-tight">
-        Muhammad Zeeshan <br /> <span className="text-gray-300  font-medium">Full Stack Developer</span>
+         Zeeshan <br /> <span className="text-gray-300  font-medium">Developer</span>
       </h1>
               </div>
 
