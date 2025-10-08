@@ -511,7 +511,7 @@ const Navbar = () => {
                 {navLinksdata.map((item) => (
                   <li
                     key={item._id}
-                    className="text-lg font-medium text-[var(--text-secondary)] hover:text-designColor transition-colors duration-200 transform hover:translate-x-2"
+                    className="text-lg bg-yellow-400  font-medium text-[var(--text-secondary)] hover:text-designColor transition-colors duration-200 transform hover:translate-x-2"
                     onClick={() => setShowMenu(false)}
                   >
                     {renderNavLink(item)}
