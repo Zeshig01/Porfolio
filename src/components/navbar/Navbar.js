@@ -492,7 +492,7 @@ const Navbar = () => {
         alt="logo"
         className="w-20 h-20 rounded-full border-2 border-yellow-400 shadow-[0_0_25px_rgba(255,215,0,0.4)]"
       />
-                <h1 className="text-2xl font-bold text-yellow-400 text-center leading-tight">
+                <h1 className="text-xl font-bold text-yellow-400 text-center leading-tight">
         Muhammad Zeeshan <br /> <span className="text-gray-300 text-lg font-medium">Full Stack Developer</span>
       </h1>
               </div>
