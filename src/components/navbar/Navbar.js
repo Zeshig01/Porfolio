@@ -493,7 +493,7 @@ const Navbar = () => {
         className="w-10 h-10 rounded-full border-2 border-yellow-400 shadow-[0_0_25px_rgba(255,215,0,0.4)]"
       />
                 <h1 className=" font-bold text-yellow-400 text-center leading-tight">
-         Zeeshan <br /> <span className="text-gray-300  font-medium">Developer</span>
+        Muhammad Zeeshan <br /> <span className="text-gray-300  font-medium">Full Stack Developer</span>
       </h1>
               </div>
 
@@ -511,7 +511,7 @@ const Navbar = () => {
                 {navLinksdata.map((item) => (
                   <li
                     key={item._id}
-                    className="text-lg bg-yellow-400  font-medium text-[var(--text-secondary)] hover:text-designColor transition-colors duration-200 transform hover:translate-x-2"
+                    className="text-lg bg-yellow-400  font-medium text-black rounded pl-2 py-3 hover:text-designColor transition-colors duration-200 transform hover:translate-x-2"
                     onClick={() => setShowMenu(false)}
                   >
                     {renderNavLink(item)}
