@@ -508,16 +508,17 @@ const Navbar = () => {
       </h1>
     </div> */}
               <ul className="flex flex-col gap-6">
-                {navLinksdata.map((item) => (
-                  <li
-                    key={item._id}
-                    className="text-lg bg-yellow-400  font-medium text-black rounded pl-2 py-3 hover:text-designColor transition-colors duration-200 transform hover:translate-x-2"
-                    onClick={() => setShowMenu(false)}
-                  >
-                    {renderNavLink(item)}
-                  </li>
-                ))}
-              </ul>
+  {navLinksdata.map((item) => (
+    <li
+      key={item._id}
+      className="text-lg bg-yellow-400 !text-black font-medium rounded pl-2 py-1 hover:text-designColor transition-colors duration-200 transform hover:translate-x-2"
+      onClick={() => setShowMenu(false)}
+    >
+      {renderNavLink(item)}
+    </li>
+  ))}
+</ul>
+
               <div className="flex flex-col gap-4">
                 <h2 className="text-base uppercase font-titleFont mb-4 text-[var(--text-primary)] font-semibold">
                   Theme
